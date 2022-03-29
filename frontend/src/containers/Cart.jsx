@@ -24,6 +24,9 @@ const Cart = () => {
         <>
             <section>
                 <div className="heading">
+                <div>
+                <img src={"https://res.cloudinary.com/dygxmsc7c/" + carts.item.image} alt="" />
+                </div>
                     <h3>Cart Items</h3>
                 </div>
                 <div class="images">
