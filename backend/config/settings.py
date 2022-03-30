@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.users', 
-    'apps.carts', 
+    'apps.users',
+    'apps.carts',
     'apps.orders',
     'apps.items',
     'cloudinary',
@@ -138,7 +138,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -157,13 +157,14 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-cloudinary.config( 
-  cloud_name = "dygxmsc7c", 
-  api_key = "862542146162486", 
-  api_secret = "9tlgVlIsQNYJX2tvlVQYHRC7tzE" 
+cloudinary.config(
+    cloud_name="www-techis-io",
+    api_key="891747999686865",
+    api_secret="seWq_dLQRcb7O5eMY-XdAuznU_w",
+    secure=True
 )
+
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
-
