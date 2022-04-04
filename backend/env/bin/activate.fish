@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/musubimanagement/Desktop/techis-wd-forum-django-react-main/backend/env"
+set -gx VIRTUAL_ENV "/Users/musubimanagement/Downloads/Cool-tees/backend/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
